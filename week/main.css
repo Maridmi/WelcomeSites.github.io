@@ -39,7 +39,7 @@ li a:hover{
     -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
     -webkit-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
     margin: 30px 5% 20px 5%; 
-    font-size: 110%;
+    font-size: 100%;
     width: 90%;
     height: 30%;
     font-family: candara; 
@@ -48,15 +48,10 @@ li a:hover{
     text-align: center; 
 }
 
-td {
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
 .daysweek {
 	-moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
     -webkit-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
-    font-size: 40px;
+    font-size: 100%;
     font-family: candara; 
     display:table; 
     color: #230642;
@@ -80,11 +75,20 @@ td {
         width: 90%;
         height: 250px;
     }
+
+    body {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:1024px){ 
     .daysweek {
-        width: 70%;
+        width: 55%;
         height: 350px;
+    }
+
+    td {
+        padding-right: 2%;
+        padding-left: 2%;
     }
 }
