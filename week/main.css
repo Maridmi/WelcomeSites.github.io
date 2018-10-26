@@ -36,8 +36,12 @@ li a:hover{
 
 
 #days { 
-    margin: 50px; 
-    font-size: 115%;
+    -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    -webkit-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    margin: 30px 5% 20px 5%; 
+    font-size: 110%;
+    width: 90%;
+    height: 30%;
     font-family: candara; 
     color: #230642;
     background-color: #9BDF9A;
@@ -50,8 +54,9 @@ td {
 }
 
 .daysweek {
-    margin: 5%; 
-    font-size: 110%;
+	-moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    -webkit-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    font-size: 40px;
     font-family: candara; 
     display:table; 
     color: #230642;
@@ -62,6 +67,7 @@ td {
 
 #day {
     font-size: 110%;
+    width: 90%;
     font-family: candara; 
     color: #230642;
     text-align: center; 
@@ -70,8 +76,15 @@ td {
 }
 
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
+    .daysweek {
+        width: 90%;
+        height: 250px;
+    }
 }
 
 @media screen and (min-width:1024px){ 
-
+    .daysweek {
+        width: 70%;
+        height: 350px;
+    }
 }
