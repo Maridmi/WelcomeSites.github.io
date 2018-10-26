@@ -1,5 +1,5 @@
 .all {
-	background: radial-gradient(pink, lightgray, pink);
+	background: radial-gradient(lightgray, pink);
 	text-align: center;
 }
 
@@ -46,6 +46,10 @@
 
 ul {
     list-style-type: none;
+}
+
+.pr {
+	margin: 50px;
 }
 
 @media screen and (min-width:1024px){ 
