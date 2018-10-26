@@ -61,6 +61,14 @@ ul {
     .hero-text {
       top: 50%;
     }
+
+    .navbar {
+		height: 60px;
+	}
+
+	.navbar-header {
+		display: none;
+	}
 }
 
 
@@ -73,6 +81,11 @@ ul {
     .hero-text {
         top:65%;
     }
+
+    .navbar {
+		text-align: center;
+		min-height: 55px;
+	}
 
     .all {
 		display: flex;
