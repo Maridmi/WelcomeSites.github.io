@@ -6,34 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-.header_menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 20px;
-    font-size: 14px;
-    font-family: candara;
-    padding-bottom: 4%;
-    padding-left: 81%;
-}
-
-.menu {
-    float: left;
-    min-width: 45px;
-}
-
-.menu a {
-    display: block;
-    color: #7C5ECF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    color: #2E1574;
-}
-
 .ul_scroll {
     overflow-y: scroll;
 	height: 372px;
