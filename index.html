@@ -1,6 +1,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/like.png" type="image/x-icon">
@@ -8,19 +13,38 @@
 </head>
 <body class="all">
 
-  <div class="header_menu">	
-	  <div class="menu"><a href="https://makotty.info/WelcomeSites.github.io/">Home</a></div>
-	  <div class="menu"><a href="">Contact</a></div>
-	  <div class="menu"><a href="">About</a></div>
-	  <div class="menu"><a href="https://github.com/Maridmi"><img src="/img/git.png" style="width: 3%;"></a></div>
+<nav role="navigation" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+      <a class="navbar-brand" href="https://makotty.info/WelcomeSites.github.io/">Home</a>
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link" href="/about">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/contact">Contact</a> </li>
+	    <li class="menu"><a href="https://github.com/Maridmi"><img src="/img/git.png" style="width: 3%;"></a></li>
+      </ul>
   </div>
 
-<h1>Projects:</h1>
-	<a href="week/index.html">Day</a><br/>
-	<a href="timer/index.html">Life timer</a><br/>
-	<a href="dress/index.html">Doll</a><br/>
-	<a href="list/index.html">To-do list</a><br/>
-	<a href="bgrand/index.html">Randomly colored background</a><br/>
-	<a href="cipher/index.html">Cipher</a><br/>
+  <div class="navbar-header">
+        <button style="background: inherit; border: none; outline: none">
+                <img src="img/menu.png" style="width: 40px; height: 25px" data-target="#navbarCollapse" data-toggle="collapse">
+                <span class="sr-only"></span>
+        </button>
+    </div>
+</nav>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>I am Mary</h1>
+      <p>And I'm an Artist</p>
+      <a href="/contact" style="text-decoration: none; color: black"><button class="imgbut">Contact</button></a>
+    </div>
+  </div>
+
+	<h1>Projects:</h1>
+		<a href="week/index.html">Day</a><br/>
+		<a href="timer/index.html">Life timer</a><br/>
+		<a href="dress/index.html">Doll</a><br/>
+		<a href="list/index.html">To-do list</a><br/>
+		<a href="bgrand/index.html">Randomly colored background</a><br/>
+		<a href="cipher/index.html">Cipher</a><br/>
 </body>
 </html>
