@@ -1,0 +1,154 @@
+body {
+	background-color: #F0E8B2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    font-size: 14px;
+    font-family: candara;
+    padding-bottom: 4%;
+    padding-left: 81%;
+}
+
+.menu {
+    float: left;
+    min-width: 45px;
+}
+
+.menu a {
+    display: block;
+    color: #7C5ECF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #2E1574;
+}
+
+.ul_scroll {
+    overflow-y: scroll;
+	height: 372px;
+	background-color: #B9CEF8;
+	width: 50%;
+	margin:50px auto; 
+	margin-top: 0px;
+    text-align: center;
+    font-family: candara;
+    -moz-box-shadow:0px 3px 0px rgba(0, 0, 0, 0.25); 
+    -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+#header {
+    padding: 30px 30px 40px 30px;
+	width: 50%;
+	margin:50px auto; 
+	margin-bottom: 0px; 
+	background-color: #F3F396;
+    text-align: center;
+    font-family: candara;
+    -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+#header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.button {
+    padding: 10px;
+    width: 25%;
+    background: #B9CEF8;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: candara; 
+}
+
+.button:hover {
+    background-color: #bbb;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    width: 100%;
+    background: #F8CEF7; 
+    font-size: 18px;
+    transition: 0.2s;
+    color: #1E2D6C;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #EBBCE2;
+}
+
+ul li:hover {
+    background: #A66EA2;
+    color: #FFFFFF;
+}
+
+ul li.checked {
+    background: #877887;
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}

@@ -1,0 +1,144 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 100px;
+    max-height: 20px;
+    font-size: 14px;
+    font-family: candara;
+    padding-bottom: 1%;
+    margin-left: 81%;
+}
+
+.menu {
+    float: left;
+    min-width: 45px;
+}
+
+.menu a {
+    color: #2E1574;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #7C5ECF;
+}
+
+
+#clothes1 {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+#clothes2 {
+    margin-left: 29%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes3 {
+    margin-left: 34%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes4 {
+    margin-left: 74%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes5 {
+    margin-left: 25%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes6 {
+    margin-left: 30%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes7 {
+    margin-left: 35%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes8 {
+    margin-left: 40%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes9 {
+    margin-left: 65%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes10 {
+    margin-left: 82%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#clothes11 {
+    margin-left: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.big_div_clothes1 {
+    width: 550px;
+    padding-top: 100px;
+}
+
+.big_div_clothes2 {
+    width: 550px;
+    padding-top: 220px;
+}
+
+.big_div_clothes3 {
+    width: 550px;
+    padding-top: 220px;
+}
+
+#big_div{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+}
+
+#shoes, #shoes2, #shoes3, #shorts, #shorts2, #shorts3, #shirt, #shirt2, #shirt3, #hat, #jeans{
+    position: absolute;
+    cursor: move;
+    z-index: 100;
+}
+
+#guy {
+    margin:50px auto;
+    padding-left: 15%;
+}
