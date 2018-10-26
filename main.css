@@ -40,3 +40,9 @@
 .menu a:hover{
     color: #2E1574;
 }
+
+@media screen and (min-width: 250px) and (max-width: 1024px) { 
+}
+
+@media screen and (min-width:1024px){ 
+}
