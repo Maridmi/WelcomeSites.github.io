@@ -1,0 +1,19 @@
+.all {
+	background: radial-gradient(pink, lightgray);
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.all a {
+	color: black;
+	text-decoration: none;
+}
+
+.all a:hover {
+	color: violet;
+}
+
+li {
+	text-decoration:none;
+}

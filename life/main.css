@@ -1,0 +1,106 @@
+body {
+	background-color: #B7EBB2;
+}
+
+.header_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 100px;
+    max-height: 20px;
+    font-size: 14px;
+    font-family: candara;
+    padding-bottom: 3%;
+    margin-left: 81%;
+}
+
+.menu {
+    float: left;
+    min-width: 45px;
+}
+
+.menu a {
+    display: block;
+    color: #7C5ECF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #2E1574;
+}
+
+.text {
+	color: #495579;
+	font-size: 34px;
+	height: 27%;
+}
+
+.birthday_big_div {
+	margin-top: 40px;
+	text-align: center;
+	width: 50%;
+	height: 455px;
+    padding: 20px 30px 40px 30px;
+	margin:50px auto; 
+	background-color: #FAE3A3;
+    font-family: candara;
+    display: flex;
+	flex-direction: column;
+    -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
+    -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+select {
+	color: #495579;
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 41px;
+    padding: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+    float: left;
+    font-size: 16px;
+	text-align: center;
+    font-family: candara;
+}
+
+.button {
+    text-align: center;
+    outline: none;
+    background-color: #B2C1EB;
+    cursor: pointer;
+    color: #495579;
+    font-size: 15px;
+    font-family: candara;
+    padding: 10px;
+    margin-top: 18px;
+    width: 25%;
+    height: 17px;
+    margin-left: 36%;
+    transition: 0.3s;
+} 
+
+.button:hover {
+    background-color: #8094C6;
+    color: #111;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: candara;
+    float: left;
+    color: #BA6837;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.selecters {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	margin-right: 40px;
+	margin-left: 40px;
+}
