@@ -14,13 +14,13 @@
 	text-align: center;
 }
 
-.all a {
+.list a {
 	color: black;
 	text-decoration: none;
 	font-size: 120%;
 }
 
-.all a:hover {
+.list a:hover {
 	color: violet;
 }
 
