@@ -6,7 +6,7 @@ body {
     height: 4350px;
 }
 
-.header_menu {
+.headmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,12 +16,12 @@ body {
     padding-bottom: 3%;
 }
 
-.menu {
+.headmenu {
     float: left;
     min-width: 45px;
 }
 
-.menu a {
+.headmenu a {
     display: block;
     color: #1EFA23;
     text-align: center;
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
 }
 
-.menu a:hover{
+.headmenu a:hover{
     color: #2E1574;
 }
 

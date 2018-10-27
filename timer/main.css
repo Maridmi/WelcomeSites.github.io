@@ -2,24 +2,25 @@ body {
 	background-color: #B7EBB2;
 }
 
-.header_menu {
+.headmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    min-width: 100px;
-    max-height: 20px;
+    height: 20px;
     font-size: 14px;
     font-family: candara;
-    padding-bottom: 3%;
-    margin-left: 81%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    float: right;
 }
 
-.menu {
+.headmenu li {
     float: left;
     min-width: 45px;
 }
 
-.menu a {
+.headmenu a {
     display: block;
     color: #7C5ECF;
     text-align: center;
@@ -27,9 +28,10 @@ body {
     text-decoration: none;
 }
 
-.menu a:hover{
+.headmenu a:hover{
     color: #2E1574;
 }
+
 
 .text {
 	color: #495579;
@@ -37,11 +39,9 @@ body {
 	height: 27%;
 }
 
-.birthday_big_div {
+.birthday {
 	margin-top: 40px;
 	text-align: center;
-	width: 50%;
-	height: 455px;
     padding: 20px 30px 40px 30px;
 	margin:50px auto; 
 	background-color: #FAE3A3;
@@ -50,21 +50,6 @@ body {
 	flex-direction: column;
     -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
     -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
-}
-
-select {
-	color: #495579;
-    outline: none;
-    border: none;
-    width: 100%;
-    min-height: 41px;
-    padding: 10px;
-	margin-right: 5px;
-	margin-left: 5px;
-    float: left;
-    font-size: 16px;
-	text-align: center;
-    font-family: candara;
 }
 
 .button {
@@ -103,4 +88,32 @@ h1 {
 	flex-direction: row;
 	margin-right: 40px;
 	margin-left: 40px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1024px) { 
+    .birthday {
+        width: 90%;
+        height: 400px;
+    }
+
+    select {
+        color: #495579;
+        outline: none;
+        border: none;
+        width: 100%;
+        min-height: 41px;
+        padding: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        float: left;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1024px){ 
+    .birthday {
+        width: 50%;
+        height: 455px;
+    }
 }

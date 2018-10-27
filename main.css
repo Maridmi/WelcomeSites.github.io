@@ -19,36 +19,6 @@
 	text-decoration: none;
 }
 
-
-.headmenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 20px;
-    font-size: 14px;
-    font-family: candara;
-    padding-bottom: 4%;
-    display: flex;
-    flex-direction: row;
-}
-
-.headmenu li {
-    float: left;
-    min-width: 45px;
-}
-
-.headmenu a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.headmenu a:hover{
-    color: #000000;
-}
-
 .row {
 	display: flex;
 	flex-direction: column;
