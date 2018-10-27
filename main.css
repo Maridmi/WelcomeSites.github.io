@@ -3,6 +3,10 @@
 	margin: 0 40px 0 0;
 }
 
+.navbar-brand, .nav-link {
+	font-size: 120%;
+}
+
 .all {
 	background: radial-gradient(lightgray, pink);
 	text-align: center;
