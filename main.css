@@ -1,3 +1,8 @@
+.navbar-nav a{
+	font-size: 120%;
+	margin: 0 40px 0 0;
+}
+
 .all {
 	background: radial-gradient(lightgray, pink);
 	text-align: center;
@@ -61,7 +66,7 @@ ul {
 
 @media screen and (min-width:1024px){ 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me4.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me4.jpg");
         height: 350px;
     }
 
@@ -81,7 +86,7 @@ ul {
 
 @media screen and (min-width:210px) and (max-width: 1024px){
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me.jpg");
         height: 300px;
     }
 
@@ -93,9 +98,6 @@ ul {
 		text-align: center;
 		min-height: 55px;
 		width: 100%;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
 	}
 
     .all {
