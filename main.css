@@ -132,4 +132,9 @@
 		min-height: 55px;
 		width: 100%;
 	}
+
+	
+	.navbar-nav img {
+		float: right;
+	}
 }
