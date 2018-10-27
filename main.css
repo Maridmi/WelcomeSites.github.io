@@ -83,16 +83,13 @@
 	align-items: center;
 }
 
-.media-body {
+.media {
+	color: blue;
+	text-decoration: none;
 	margin: 5%;
 }
 
-.about {
-	color: blue;
-	text-decoration: none;
-}
-
-.about a:hover {
+.media a:hover {
 	color: violet;
 	text-decoration: none;
 }
