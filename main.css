@@ -3,6 +3,12 @@
 	margin: 0 40px 0 0;
 }
 
+.nav-link, .navbar-brand {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .all {
 	background: radial-gradient(lightgray, pink);
 	text-align: center;
@@ -56,7 +62,6 @@
 }
 
 .list a {
-	margin-top: 15px;
 	font-size: 110%;
 }
 
@@ -70,11 +75,11 @@
 @media screen and (min-width:1024px){ 
     .hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me4.jpg");
-        height: 350px;
+        height: 400px;
     }
 
     .hero-text {
-      top: 50%;
+      top: 55%;
     }
 
     .navbar {
@@ -90,7 +95,7 @@
 @media screen and (min-width:210px) and (max-width: 1024px){
     .hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me.jpg");
-        height: 250px;
+        height: 310px;
     }
 
     .hero-text {
