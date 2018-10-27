@@ -1,15 +1,12 @@
 .headmenu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 20px;
     font-size: 16px;
     font-family: candara;
-    padding-bottom: 4%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin: 3% 0 5% 5%;
 }
 
 .headmenu li {

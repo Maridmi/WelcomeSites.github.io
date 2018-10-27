@@ -8,12 +8,9 @@ body {
 
 .headmenu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: candara;
-    padding-bottom: 4%;
+    margin: 3% 0 5% 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,12 +19,14 @@ body {
 .headmenu a {
     display: block;
     color: #000;
+    opacity: .7;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .headmenu a:hover{
-    color: #FFFFFF;
+    color: #000;
+    opacity: 1;
 }
 
 .menu img {
@@ -42,23 +41,15 @@ body {
     overflow-y: scroll;
 	height: 372px;
 	background-color: #B9CEF8;
-	width: 50%;
-	margin:50px auto; 
 	margin-top: 0px;
-    text-align: center;
-    font-family: candara;
     -moz-box-shadow:0px 3px 0px rgba(0, 0, 0, 0.25); 
     -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 #header {
     padding: 30px 30px 40px 30px;
-	width: 50%;
-	margin:50px auto; 
 	margin-bottom: 0px; 
 	background-color: #F3F396;
-    text-align: center;
-    font-family: candara;
     -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25); 
     -webkit-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
@@ -155,4 +146,22 @@ input {
     padding: 10px;
     float: left;
     font-size: 16px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1024px) { 
+    .bod {
+        width: 90%;
+        margin:50px auto; 
+        text-align: center;
+        font-family: candara;
+    }
+}
+
+@media screen and (min-width:1024px){ 
+    .bod {
+        width: 50%;
+        margin:50px auto; 
+        text-align: center;
+        font-family: candara;
+    }
 }
