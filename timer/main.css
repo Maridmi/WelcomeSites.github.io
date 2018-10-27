@@ -12,9 +12,7 @@ body {
     font-family: candara;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    float: right;
-    margin: 3% 0 5% 5%;
+    justify-content: space-around;
 }
 
 .headmenu li {

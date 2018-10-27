@@ -20,7 +20,8 @@ body {
 }
 
 .headmenu a {
-    color: #2E1574;
+    color: #000;
+    opacity: .7;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -28,7 +29,8 @@ body {
 }
 
 .headmenu a:hover{
-    color: #7C5ECF;
+    color: #000;
+    opacity: 1;
 }
 
 .menu img {

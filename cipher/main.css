@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 3% 0 5% 5%;
+    margin: 1.5% 0 3% 3%;
 }
 
 .headmenu {
@@ -23,13 +23,15 @@ body {
 .headmenu a {
     display: block;
     color: #1EFA23;
+    opacity: 1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .headmenu a:hover{
-    color: #2E1574;
+    color: #1EFA23;
+    opacity: .7;
 }
 
 .menu img {

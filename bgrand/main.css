@@ -6,23 +6,25 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin: 3% 0 5% 5%;
+    margin: 1.5% 0 0 0;
 }
 
 .headmenu li {
     float: left;
-    min-width: 45px;
 }
 
 .headmenu a {
-    display: block;
     color: #000;
+    opacity: .7;
+    display: block;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .headmenu a:hover{
-    color: #FFFFFF;
+    color: #000;
+    opacity: 1;
 }
 
 .menu img {
