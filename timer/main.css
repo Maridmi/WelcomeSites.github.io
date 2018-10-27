@@ -1,5 +1,9 @@
 body {
 	background-color: #B7EBB2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .headmenu {
@@ -12,6 +16,7 @@ body {
     padding-bottom: 4%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     float: right;
 }
 
@@ -22,16 +27,23 @@ body {
 
 .headmenu a {
     display: block;
-    color: #7C5ECF;
+    color: #2E1574;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .headmenu a:hover{
-    color: #2E1574;
+    color: #7C5ECF;
 }
 
+.menu img {
+    opacity: .7;
+}
+
+.menu img:hover {
+    opacity: 1;
+}
 
 .text {
 	color: #495579;
@@ -90,24 +102,24 @@ h1 {
 	margin-left: 40px;
 }
 
+select {
+    color: #495579;
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 41px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
     .birthday {
         width: 90%;
         height: 400px;
-    }
-
-    select {
-        color: #495579;
-        outline: none;
-        border: none;
-        width: 100%;
-        min-height: 41px;
-        padding: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        float: left;
-        font-size: 16px;
-        text-align: center;
     }
 }
 

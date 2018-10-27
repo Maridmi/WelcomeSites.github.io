@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
     height: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: candara;
     padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .headmenu li {
@@ -24,13 +28,20 @@
     color: #FFFFFF;
 }
 
+.menu img {
+    opacity: .7;
+}
+
+.menu img:hover {
+    opacity: 1;
+}
+
 button { 
     background: #B9CEF8;
     color: #2A1E24;
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border: 8px;
     cursor: pointer;
     font-size: 25px;
     font-family: candara;
