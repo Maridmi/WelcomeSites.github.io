@@ -84,9 +84,12 @@
 }
 
 .media {
+	margin: 5%;
+}
+
+.media a{
 	color: blue;
 	text-decoration: none;
-	margin: 5%;
 }
 
 .media a:hover {
