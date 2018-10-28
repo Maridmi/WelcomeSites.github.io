@@ -1,6 +1,5 @@
 .navbar-nav a{
-	font-size: 120%;
-	margin: 0 40px 0 0;
+	margin: 0 45px 0 0;
 }
 
 .navbar-brand, .nav-link {
@@ -111,6 +110,13 @@
       top: 55%;
     }
 
+    .navigation {
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	justify-content: center;
+    }
+
     .navbar {
 		height: 60px;
 	}
@@ -133,6 +139,13 @@
 
     .hero-text {
         top:65%;
+    }
+
+    .navigation {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
     }
 
     .navbar {

@@ -17,11 +17,6 @@ body {
     margin: 2% 0 3% 3%;;
 }
 
-.headmenu li{
-    float: left;
-    min-width: 45px;
-}
-
 .headmenu a {
     color: #000;
     opacity: .7;
@@ -38,6 +33,7 @@ body {
 
 .menu img {
     opacity: .7;
+    bottom: 0;
 }
 
 .menu img:hover {

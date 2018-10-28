@@ -34,6 +34,7 @@ body {
 
 .menu img {
     opacity: .7;
+    bottom: 0;
 }
 
 .menu img:hover {
