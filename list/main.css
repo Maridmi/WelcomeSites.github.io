@@ -1,5 +1,8 @@
 body {
 	background-color: #F0E8B2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 * {
@@ -141,6 +144,7 @@ ul li.checked::before {
 }
 
 input {
+    border-radius: 0;
     border: none;
     width: 75%;
     padding: 10px;
@@ -151,7 +155,15 @@ input {
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
     .bod {
         width: 90%;
-        margin:50px auto; 
+        text-align: center;
+        font-family: candara;
+    }
+}
+
+
+@media screen and (min-width: 512px) and (max-width: 1024px) { 
+    .bod {
+        width: 65%;
         text-align: center;
         font-family: candara;
     }
@@ -160,7 +172,7 @@ input {
 @media screen and (min-width:1024px){ 
     .bod {
         width: 50%;
-        margin:50px auto; 
+        margin: 40px; 
         text-align: center;
         font-family: candara;
     }

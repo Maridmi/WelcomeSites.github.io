@@ -2,8 +2,10 @@ body {
 	background-color: #01060E;
     font-family: 'Anonymous Pro', sans-serif;
     letter-spacing: 10px;
-    font-size:14px;
     height: 4350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headmenu {

@@ -15,11 +15,6 @@ body {
     justify-content: space-around;
 }
 
-.headmenu li {
-    float: left;
-    min-width: 45px;
-}
-
 .headmenu a {
     display: block;
     color: #2E1574;
@@ -43,14 +38,10 @@ body {
 .text {
 	color: #495579;
 	font-size: 34px;
-	height: 27%;
 }
 
 .birthday {
-	margin-top: 40px;
 	text-align: center;
-    padding: 20px 30px 40px 30px;
-	margin:50px auto; 
 	background-color: #FAE3A3;
     font-family: candara;
     display: flex;
@@ -93,8 +84,6 @@ h1 {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
-	margin-right: 40px;
-	margin-left: 40px;
 }
 
 select {
@@ -111,16 +100,42 @@ select {
     text-align: center;
 }
 
-@media screen and (min-width: 250px) and (max-width: 1024px) { 
+@media screen and (min-width: 250px) and (max-width: 512px) { 
     .birthday {
         width: 90%;
         height: 400px;
+    }
+
+    .selecters {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 512px) and (max-width: 1024px) { 
+    .birthday {
+        width: 65%;
+        height: 450px;
+    }
+
+    .selecters {
+        margin-right: 30px;
+        margin-left: 30px;
     }
 }
 
 @media screen and (min-width:1024px){ 
     .birthday {
-        width: 50%;
-        height: 455px;
+        width: 40%;
+        height: 470px;
+    }
+
+    .selecters {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .birthday {
+        padding: 20px 30px 40px 30px;
     }
 }
