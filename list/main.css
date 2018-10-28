@@ -45,7 +45,6 @@ body {
 
 .ul_scroll {
     overflow-y: scroll;
-	height: 372px;
 	background-color: #B9CEF8;
 	margin-top: 0px;
     -moz-box-shadow:0px 3px 0px rgba(0, 0, 0, 0.25); 
@@ -161,6 +160,10 @@ input {
         text-align: center;
         font-family: candara;
     }
+
+    .ul_scroll {
+        height: 300px;
+    }
 }
 
 
@@ -170,6 +173,10 @@ input {
         text-align: center;
         font-family: candara;
     }
+
+    .ul_scroll {
+        height: 320px;
+    }
 }
 
 @media screen and (min-width:1024px){ 
@@ -178,5 +185,9 @@ input {
         margin: 40px; 
         text-align: center;
         font-family: candara;
+    }
+
+    .ul_scroll {
+        height: 372px;
     }
 }
