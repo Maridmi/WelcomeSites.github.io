@@ -82,7 +82,7 @@ h1 {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
-    content: "xyi";
+    margin-top: 30px;
 }
 
 select {
