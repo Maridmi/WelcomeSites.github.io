@@ -33,7 +33,9 @@ body {
 
 .menu img {
     opacity: .7;
-    bottom:0;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 20px;
 }
 
 .menu img:hover {
@@ -61,12 +63,32 @@ body {
 .quote {
     color: #363B53;
     margin-top: 5%;
-    margin-left: 74%;
-    font-size: 16.5px;
 }
 
 .what {
     color: #363B53;
     margin: 3% auto;
     padding-left: 7%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1024px) { 
+    .quote {
+        margin-left: 40%;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 512px) and (max-width: 1024px) { 
+    .quote {
+        margin-left: 50%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1024px){ 
+    .quote {
+        margin-left: 74%;
+        font-size: 16.5px;
+    }
 }

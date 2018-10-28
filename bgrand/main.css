@@ -33,6 +33,8 @@ body {
 .menu img {
     opacity: .7;
     bottom: 0;
+    position: fixed;
+    margin-bottom: 20px;
 }
 
 .menu img:hover {
