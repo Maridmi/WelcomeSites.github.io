@@ -40,6 +40,7 @@ body {
 
 .birthday {
 	text-align: center;
+    margin-top: 30px;
 	background-color: #FAE3A3;
     font-family: candara;
     display: flex;
@@ -82,7 +83,6 @@ h1 {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
-    margin-top: 30px;
 }
 
 select {
@@ -121,11 +121,6 @@ select {
         height: 450px;
     }
 
-    .selecters {
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-
     .text {
         color: #495579;
         font-size: 24px;
@@ -134,13 +129,8 @@ select {
 
 @media screen and (min-width:1024px){ 
     .birthday {
-        width: 40%;
+        width: 35%;
         height: 470px;
-    }
-
-    .selecters {
-        margin-right: 40px;
-        margin-left: 40px;
     }
 
     .birthday {
