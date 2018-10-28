@@ -30,6 +30,7 @@ body {
 
 .menu img {
     opacity: .7;
+    width: 35px;
     bottom: 0;
     position: fixed;
     margin-bottom: 20px;

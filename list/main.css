@@ -33,6 +33,7 @@ body {
 }
 
 .menu img {
+    width: 35px;
     opacity: .7;
     bottom: 0;
     position: fixed;

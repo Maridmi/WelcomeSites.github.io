@@ -35,6 +35,7 @@ body {
     bottom: 0;
     position: fixed;
     margin-bottom: 20px;
+    width: 35px;
 }
 
 .menu img:hover {

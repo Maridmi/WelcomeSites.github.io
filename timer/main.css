@@ -82,13 +82,13 @@ h1 {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
+    content: "xyi";
 }
 
 select {
     color: #495579;
     outline: none;
     border: none;
-    width: 100%;
     min-height: 41px;
     padding: 10px;
     margin-right: 5px;
