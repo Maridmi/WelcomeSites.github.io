@@ -19,7 +19,6 @@ body {
     color: #FFFFFF;
     opacity: .7;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -31,6 +30,7 @@ body {
 .menu img {
     opacity: .7;
     bottom: 0;
+    position: fixed;
 }
 
 .menu img:hover {
