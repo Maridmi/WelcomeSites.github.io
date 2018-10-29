@@ -42,7 +42,7 @@ body {
     color: #1EFA23;
 }
 
-.message {
+.message, .message1 {
     color: #1EFA23;
     position: -webkit-sticky;
     position: sticky;
@@ -52,6 +52,12 @@ body {
 }
 
 .message_end h1{
+    margin-top: 3050px;
+    left: 0;
+    padding-left: 30px;
+}
+
+.message_end1 h1{
     margin-top: 3050px;
     left: 0;
     padding-left: 30px;
@@ -68,17 +74,24 @@ body {
 }
 
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 4900px;
+    }
+
     .quote {
         margin-left: 40%;
         font-size: 16px;
     }
-}
 
+    .message1 {
+        display: none;
+    }
 
-@media screen and (min-width: 512px) and (max-width: 1024px) { 
-    .quote {
-        margin-left: 50%;
-        font-size: 16px;
+    .message_end1 {
+        display: none;
     }
 }
 
@@ -90,5 +103,13 @@ body {
 
     .what {
         padding-left: 7%;
+    }
+
+    .message {
+        display: none;
+    }
+
+    .message_end {
+        display: none;
     }
 }
