@@ -2,10 +2,7 @@ body {
 	background-color: #01060E;
     font-family: 'Anonymous Pro', sans-serif;
     letter-spacing: 4px;
-    height: 4500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 5000px;
 }
 
 .headmenu {
@@ -14,6 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     margin: 1.5% 0 3% 3%;
 }
 
@@ -50,7 +48,7 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .message_end h1{
