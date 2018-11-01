@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: linear-gradient(#030326, #26031C);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,11 +47,11 @@ body {
 
 #day {
     text-align: center;
+    color: white;
 }
 
 #description {
-    text-align: center;
-    width: 90%;
+    color: white;
 }
 
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
@@ -60,7 +60,7 @@ body {
     }
 	
     #description {
-	    text-align: center;
+        font-size: 100%;
     }
 
     #day {
