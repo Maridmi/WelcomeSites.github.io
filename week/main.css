@@ -1,5 +1,5 @@
 body {
-    background-color: linear-gradient(#030326, #26031C);
+    background: linear-gradient(#030326, #26031C);
     display: flex;
     flex-direction: column;
     align-items: center;
