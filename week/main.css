@@ -46,14 +46,12 @@ body {
 }
 
 #day {
-    color: #230642;
     display:inline-block;
     position:relative;
 }
 
 #description {
     width: 90%;
-    color: #230642;
 }
 
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
