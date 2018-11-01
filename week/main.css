@@ -1,5 +1,5 @@
 body {
-	background-color: #CFB5C4;
+    background-color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,42 +42,31 @@ body {
 
 .daysweek {
     font-family: candara; 
-    font-size: 135%;
-    color: #230642;
-    background-color: gray;
-    padding-right: 0 5% 0 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     margin: 5% 0 5% 0;
 }
 
 #day {
-    width: 90%;
-    font-family: candara; 
     color: #230642;
     display:inline-block;
     position:relative;
 }
 
 #description {
-   font-family: candara;
+    width: 90%;
+    color: #230642;
 }
 
 @media screen and (min-width: 250px) and (max-width: 1024px) { 
     .daysweek {
         width: 95%;
-        height: 250px;
     }
 	
     #description {
-	text-align: center;
-	    width: 80%;
+	    text-align: center;
     }
 
     #day {
-        font-size: 105%;
+        font-size: 150%;
     }
 }
 
@@ -88,11 +77,10 @@ body {
     }
 
 	#description {
-		width: 60%;
-		margin: 1% 35% 2% 5%;
+        font-size: 100%;
 	}
 	
     #day {
-        font-size: 140%;
+        font-size: 170%;
     }
 }
